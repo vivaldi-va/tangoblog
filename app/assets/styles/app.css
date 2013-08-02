@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+body {
+  font: 400 1.6rem/1.5 'lato', sans-serif;
+  color: #4f4f4f; }
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/*
+a,
+a:link,
+a:visited {
+  color: $green;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+  font-weight: 600;
+}
+*/
+.section-title {
+  margin: 1em 0;
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #ef422b;
+  text-transform: capitalize;
+  text-align: center; }
+
+a.btn {
+  height: 35pt;
+  margin: 0 0 1.6rem;
+  line-height: 35pt;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  a.btn:hover, a.btn:active {
+    text-decoration: none; }
+  a.btn.block {
+    display: block;
+    width: 100%;
+    padding: 0 1em;
+    background: #999999;
+    color: white !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+  a.btn:hover, a.btn:active {
+    background: #b3b3b3; }
+  a.btn.cta {
+    background: #00a253; }
+    a.btn.cta:hover, a.btn.cta:active {
+      background: #00d56d; }
+  a.btn.no-style {
+    display: inline-block;
+    min-width: 35pt;
+    background: transparent; }
+    a.btn.no-style:hover, a.btn.no-style:active {
+      color: #00a253; }
+
+.pill {
+  display: inline-block;
+  padding: 0 0.5em 0.2em;
+  background: #999999;
+  color: white;
+  line-height: 1.7;
+  text-transform: capitalize;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  .pill.red {
+    background: #ef422b; }
+  .pill.green {
+    background: #00a253; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background: #f7f7f7; }
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1.5em; }
+
+.full-width {
+  float: left;
+  width: 100%; }
+
+.site-head {
+  text-align: center; }
+  .site-head hgroup {
+    margin: 0 0 6.4rem; }
+
+.site-title {
+  position: relative;
+  margin: 6.4rem 0 0;
+  color: #ef422b;
+  font-size: 3.2em;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .site-title:before {
+    position: absolute;
+    left: 50%;
+    top: -8rem;
+    content: "";
+    width: 73px;
+    height: 73px;
+    margin: 0 0 0 -39px;
+    background: url("https://si0.twimg.com/profile_images/378800000146282949/dfd7e1f0f355699655f02b2bd09702f5_bigger.jpeg") no-repeat 0 0;
+    border: 5px solid #dfdfdf;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+
+.site-sub-title {
+  margin: 0;
+  font-size: 1.3125em;
+  font-weight: 600;
+  color: #999999;
+  text-transform: capitalize; }
+
+.about-content {
+  color: #999999;
+  margin: 0 0 3.2rem; }
+
+.header-freelance-info {
+  margin: 0 0 3.2rem; }
+  .header-freelance-info .header-freelance-message {
+    display: inline-block;
+    margin: 0 0 3.2rem; }
+
+.social-link {
+  float: left;
+  width: 50%;
+  font-size: 2em;
+  color: #999999; }
+
+.home-preview {
+  float: left;
+  width: 100%; }
+  .home-preview .post-meta {
+    float: left;
+    width: 100%;
+    text-align: center; }
+    .home-preview .post-meta .post-meta-date {
+      font-size: 2.15em;
+      font-weight: 300;
+      color: #00a253; }
+    .home-preview .post-meta .post-meta-categories {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center; }
+  .home-preview .post-stuff {
+    float: left;
+    width: 100%;
+    margin: 3.2rem 0 0; }
+    .home-preview .post-stuff .post-title {
+      font-size: 1.25em;
+      font-weight: 700;
+      color: #00a253;
+      text-align: center; }
+      .home-preview .post-stuff .post-title:first-letter {
+        text-transform: capitalize; }
+  .home-preview .read-more {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 35pt;
+    font-size: 0.8em;
+    color: #00a253;
+    text-align: center;
+    /*[class*='icon-'] {
+      position: absolute;
+      top: auto;
+      left: auto;
+
+
+
+      font-size: 3em;
+    }*/ }

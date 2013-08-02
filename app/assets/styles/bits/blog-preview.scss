@@ -1,0 +1,68 @@
+.home-preview {
+  float: left;
+  width: 100%;
+
+  .post-meta {
+    float: left;
+    width: 100%;
+
+    text-align: center;
+
+    .post-meta-date {
+      font-size: 2.15em;
+      font-weight: 300;
+      color: $green;
+    }
+
+    .post-meta-categories {
+      float: left;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      text-align: center;
+
+    }
+
+  }
+
+  .post-stuff {
+    float: left;
+    width: 100%;
+    margin: 3.2rem 0 0;
+
+    .post-title {
+      font-size: 1.25em;
+      font-weight: 700;
+      color: $green;
+      text-align: center;
+      &:first-letter {
+        text-transform: capitalize;
+      }
+    }
+
+  }
+
+  .read-more {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: $touchTarget;
+
+    font-size: 0.8em;
+
+    color: $green;
+    text-align: center;
+
+    /*[class*='icon-'] {
+      position: absolute;
+      top: auto;
+      left: auto;
+
+
+
+      font-size: 3em;
+    }*/
+  }
+}

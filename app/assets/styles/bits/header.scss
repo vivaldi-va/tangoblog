@@ -1,0 +1,74 @@
+.site-head {
+  text-align: center;
+  hgroup {
+    margin: 0 0 6.4rem;
+  }
+}
+.site-title {
+  position: relative;
+  margin: 6.4rem 0 0;
+
+  color: $red;
+  font-size: 3.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  &:before {
+    position: absolute;
+    left: 50%;
+    top: -8rem;
+
+    content: "";
+    width: 73px;
+    height: 73px;
+
+    margin: 0 0 0 ((73px+5)/2)*-1;
+    background: url('https://si0.twimg.com/profile_images/378800000146282949/dfd7e1f0f355699655f02b2bd09702f5_bigger.jpeg') no-repeat 0 0;
+
+    border: 5px solid $lightGrey;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+  }
+}
+
+.site-sub-title {
+  margin: 0;
+
+  font-size: 1.3125em;
+  font-weight: 600;
+  color: $muted;
+  text-transform: capitalize;
+}
+
+.about-content {
+  color: $muted;
+  margin: 0 0 3.2rem;
+
+}
+
+
+.header-freelance-info {
+
+  margin: 0 0 3.2rem;
+
+  .header-freelance-message {
+    display: inline-block;
+    margin: 0 0 3.2rem;
+  }
+
+}
+
+
+.social-links {
+
+}
+.social-link {
+  float: left;
+  width: 50%;
+  font-size: 2em;
+  color: $muted;
+}
+

@@ -1,0 +1,141 @@
+---
+layout: default
+title: "'Allo, 'Allo!"
+---
+
+<header class="wrapper site-head">
+    <hgroup>
+        <h1 class="site-title">Zaccary Price</h1>
+        <h2 class="site-sub-title">Front-end Developer</h2>
+    </hgroup>
+    <p class="about-content">
+        I am a front-end and web developer and designer currently located in Helsinki, Finland.
+        Currently I work for <a href="http://www.avansera.com" target="_blank">Avansera Oy</a> developing web applications, though I do occasional photography on the
+        side. I&lsquo;m a big fan of responsive web development and progressive technologies and have been playing with AngularJS, Node.js,
+        Grunt, Yeoman and Jekyll, which this very site is made with.
+    </p>
+    <aside class="header-freelance-info">
+        <strong class="header-freelance-message">I also do freelance stuff</strong>
+        <a class="btn block cta hire-button" href="#contact">hire me!</a>
+    </aside>
+    <div class="social-links">
+        <a class="btn no-style social-link" href="#"><i class="icon-twitter"></i></a>
+        <a class="btn no-style social-link" href="#"><i class="icon-envelope-alt"></i></a>
+    </div>
+</header>
+
+<section id="portfolio" class="wrapper">
+    {% for post in site.categories.portfolio limit: 4 %}
+         <div class="portfolio-item-wrapper"><img src="" alt="{{ post.title }}"/></div>
+    {% endfor %}
+</section>
+
+
+<div class="wrapper">
+    <section id="blog" class="full-width">
+        <header>
+            <a href="./blog/">
+                <h2 class="section-title">the blog</h2>
+            </a>
+        </header>
+        {% for post in site.posts limit: 1 %}
+            {% unless post.categories == "portfolio" %}
+                <article class="post home-preview">
+                    <aside class="post-meta">
+                        <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                        <ul class="post-meta-categories">
+                            {% for category in post.categories %}
+                                <li class="pill red">{{ category }}
+                            {% endfor %}
+                        </ul>
+                    </aside>
+                    <div class="post-stuff">
+                        <a href=".{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+                        <p>{{ post.content | strip_html | truncatewords:75}}</p>
+                    </div>
+
+                    <a class="read-more" href=".{{ post.url }}">read more <i class="icon-double-angle-right"></i></a>
+                </article>
+            {% endunless %}
+        {% endfor %}
+    </section>
+</div>
+
+<div class="wrapper">
+    <section id="resume" class="full-width">
+        <header>
+            <h2 class="section-title">resume</h2>
+        </header>
+        <aside class="resume-top">
+            <span class="resume-cap">Today</span>
+        </aside>
+        <article class="resume-entry">
+            <header>
+                <hgroup>
+                    <h2>Front-end developer</h2>
+                    <h3>Avansera Oy</h3>
+                    <p>
+                        Primarily front-end development for the Ostosnero web-app,
+                        with some work in back-end and database development as well as UI and web design.
+                    </p>
+                </hgroup>
+            </header>
+            <aside>
+                <span class="timeframe">February 2013 &ndash; Present</span>
+                <span class="location">Helsinki, Finland</span>
+            </aside>
+        </article>
+
+        <article class="resume-entry">
+            <header>
+                <hgroup>
+                    <h2>Web developer</h2>
+                    <h3>Freelance</h3>
+                    <p>
+                        Developing demos and prototypes for private clients or small companies.
+                        Work is part-time and dependant on my work schedule at my day job.
+                    </p>
+                </hgroup>
+            </header>
+            <aside>
+                <span class="timeframe">August 2012 &ndash; Present</span>
+                <span class="location">Helsinki, Finland</span>
+            </aside>
+        </article>
+
+        <article class="resume-entry">
+            <header>
+                <hgroup>
+                    <h2>Web developer &amp; designer</h2>
+                    <h3>Wild Tango Media</h3>
+                    <p>
+                        Self owned business designing and developing websites primarily for small retailers and traders.
+                    </p>
+                </hgroup>
+            </header>
+            <aside>
+                <span class="timeframe">January 2012 &ndash; August 2012</span>
+                <span class="location">Perth, Australia</span>
+            </aside>
+        </article>
+
+        <footer class="resume-bottom">
+            <span class="resume-cap bottom">02.08.1991</span>
+        </footer>
+    </section>
+</div>
+<section id="contact" class="wrapper">
+    <form action="post_message.php" method="post" id="contact-form">
+        <label for="contact-name">name:</label><input type="text" id="contact-name" name="name" autocomplete="false" tabindex="1" placeholder="e.g. Bill Nye">
+        <label for="contact-email">email:</label><input type="email" id="contact-email" name="email" autocomplete="false" tabindex="2" required placeholder="bill.nye@scienceguy.com">
+        <label for="contact-number">contact number:</label><input id="contact-number" type="tel" name="number" tabindex="3" placeholder="Don't forget the country code!">
+        <textarea name="message" id="contact-mesasge" cols="30" rows="10"></textarea>
+        <button type="submit" class="contact-submit"><i class="icon-double-angle-right"></i>Send it.</button>
+    </form>
+</section>
+
+<footer class="full-width site-footer">
+    <div class="wrapper">
+        <aside class="legal">Copyright<sup>&copy;</sup> 2013 &mdash; Zaccary Price <small>wildtangomedia</small></aside>
+    </div>
+</footer>

@@ -1,0 +1,56 @@
+a.btn {
+  height: $touchTarget;
+  margin: 0 0 1.6rem;
+  line-height: $touchTarget;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
+  &.block {
+    display: block;
+    width: 100%;
+    padding: 0 1em;
+
+    background: $muted;
+
+    color: $white !important;
+
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  &:hover,
+  &:active {
+    background: lighten($muted, 10%);
+  }
+
+  &.cta {
+    background: $green;
+
+    &:hover,
+    &:active {
+      background: lighten($green, 10%);
+    }
+  }
+
+  &.no-style {
+    display: inline-block;
+    min-width: $touchTarget;
+    background: transparent;
+
+    &:hover,
+    &:active {
+      color: $green;
+    }
+  }
+
+
+}
