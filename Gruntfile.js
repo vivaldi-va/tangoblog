@@ -125,7 +125,7 @@ module.exports = function (grunt) {
         jekyll: {
             dist: {
                 src: '<%= yeoman.app %>',
-                dest: '<%= yeoman.jekyll %>',
+                dest: '<%= yeoman.jekyll %>'
             }
         },
         rev: {
@@ -133,7 +133,8 @@ module.exports = function (grunt) {
                 files: {
                     src: [
                         '<%= yeoman.jekyll %>/assets/scripts/{,*/}*.js',
-                        '<%= yeoman.jekyll %>/assets/styles/{,*/}*.css',
+                        //'<%= yeoman.jekyll %>/assets/styles/{,*/}*.css',
+                        '<%= yeoman.jekyll %>/assets/styles/*.css',
                         '<%= yeoman.jekyll %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
                         '<%= yeoman.jekyll %>/assets/fonts/*'
                     ]
@@ -279,7 +280,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('default', [
-        'jshint',
+        //'jshint',
         'test',
         'build'
     ]);
