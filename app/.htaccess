@@ -209,11 +209,21 @@ AddDefaultCharset utf-8
 # Also, some cloud hosting services require `RewriteBase` to be set:
 # http://www.rackspace.com/knowledge_center/frequently-asked-question/why-is-mod-rewrite-not-working-on-my-site
 
+#DocumentRoot "c:/wamp/www/tangoblog/app/_site/"
+
+
+
 <IfModule mod_rewrite.c>
+
+
     Options +FollowSymlinks
   # Options +SymLinksIfOwnerMatch
     RewriteEngine On
-  # RewriteBase /
+   # RewriteBase /
+
+
+
+    #RewriteRule ^$ /store [L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
@@ -255,6 +265,12 @@ AddDefaultCharset utf-8
 #    RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
 #    RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # </IfModule>
+
+
+
+
+
+
 
 
 # ##############################################################################

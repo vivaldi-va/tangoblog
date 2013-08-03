@@ -1,9 +1,18 @@
 @import "bits/_variables";
+@import "bits/reset";
 @import "bits/typography";
-@import "bits/_button";
 
+//atoms
+@import "bits/atoms/_button";
 @import "bits/atoms/_pill";
+@import "bits/atoms/_block-input";
 
+//molecules
+@import "bits/molecules/_form-input";
+
+//organisms
 @import "bits/structure";
 @import "bits/header";
 @import "bits/blog-preview";
+@import "bits/resume";
+@import "bits/contact-form";

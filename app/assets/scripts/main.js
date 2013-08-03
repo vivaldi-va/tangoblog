@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+window.scrollTo(0,1);

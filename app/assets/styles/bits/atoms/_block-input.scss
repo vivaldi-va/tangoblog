@@ -1,0 +1,29 @@
+$height: 40px;
+
+.input {
+  width: 100%;
+  height: $height;
+  margin: 0 0 1em;
+  padding: 0 0.5em;
+
+  line-height: $height;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  border: 1px solid $lightGrey;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  &:active,
+  &:focus {
+    border-color: $green;
+    color: $green;
+  }
+}

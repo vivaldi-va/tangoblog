@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font: 400 1.6rem/1.5 'lato', sans-serif;
   color: #4f4f4f; }
@@ -10,29 +15,25 @@ h4 {
   margin: 0; }
 
 a {
-  text-decoration: none;
-  color: inherit; }
-
-/*
-a,
-a:link,
-a:visited {
-  color: $green;
-  text-decoration: none;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
+  color: inherit;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
+  transition: all 0.2s ease; }
+  a:link, a:visited {
+    color: inherit; }
+  a h1,
+  a h2,
+  a h3 {
+    text-decoration: none; }
 
 a:hover,
 a:active,
 a:focus {
-  text-decoration: underline;
   font-weight: 600;
-}
-*/
+  color: #00a253; }
+
 .section-title {
   margin: 1em 0;
   font-size: 1.75em;
@@ -41,35 +42,69 @@ a:focus {
   text-transform: capitalize;
   text-align: center; }
 
-a.btn {
+.btn,
+.btn:link,
+.btn:visited {
+  display: block;
   height: 35pt;
   margin: 0 0 1.6rem;
   line-height: 35pt;
+  border: none;
+  color: white;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  a.btn:hover, a.btn:active {
+  box-sizing: border-box;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+  .btn:hover, .btn:active,
+  .btn:link:hover,
+  .btn:link:active,
+  .btn:visited:hover,
+  .btn:visited:active {
     text-decoration: none; }
-  a.btn.block {
+  .btn.block,
+  .btn:link.block,
+  .btn:visited.block {
     display: block;
     width: 100%;
     padding: 0 1em;
     background: #999999;
-    color: white !important;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px; }
-  a.btn:hover, a.btn:active {
-    background: #b3b3b3; }
-  a.btn.cta {
+  .btn:hover, .btn:active,
+  .btn:link:hover,
+  .btn:link:active,
+  .btn:visited:hover,
+  .btn:visited:active {
+    background: #b3b3b3;
+    font-size: 1.1em; }
+  .btn.cta,
+  .btn:link.cta,
+  .btn:visited.cta {
     background: #00a253; }
-    a.btn.cta:hover, a.btn.cta:active {
+    .btn.cta:hover, .btn.cta:active,
+    .btn:link.cta:hover,
+    .btn:link.cta:active,
+    .btn:visited.cta:hover,
+    .btn:visited.cta:active {
       background: #00d56d; }
-  a.btn.no-style {
+  .btn.no-style,
+  .btn:link.no-style,
+  .btn:visited.no-style {
     display: inline-block;
     min-width: 35pt;
-    background: transparent; }
-    a.btn.no-style:hover, a.btn.no-style:active {
+    background: transparent;
+    text-decoration: none;
+    color: inherit; }
+    .btn.no-style:hover, .btn.no-style:active,
+    .btn:link.no-style:hover,
+    .btn:link.no-style:active,
+    .btn:visited.no-style:hover,
+    .btn:visited.no-style:active {
       color: #00a253; }
 
 .pill {
@@ -86,6 +121,34 @@ a.btn {
     background: #ef422b; }
   .pill.green {
     background: #00a253; }
+
+.input {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 1em;
+  padding: 0 0.5em;
+  line-height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input,
+textarea {
+  border: 1px solid #dfdfdf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  input:active, input:focus,
+  textarea:active,
+  textarea:focus {
+    border-color: #00a253;
+    color: #00a253; }
+
+.form-input .form-input-label {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 html {
   font-size: 10px; }
@@ -159,7 +222,6 @@ body {
     width: 100%;
     text-align: center; }
     .home-preview .post-meta .post-meta-date {
-      font-size: 2.15em;
       font-weight: 300;
       color: #00a253; }
     .home-preview .post-meta .post-meta-categories {
@@ -169,6 +231,8 @@ body {
       padding: 0;
       list-style: none;
       text-align: center; }
+      .home-preview .post-meta .post-meta-categories .category {
+        font-size: 0.8em; }
   .home-preview .post-stuff {
     float: left;
     width: 100%;
@@ -197,3 +261,99 @@ body {
 
       font-size: 3em;
     }*/ }
+
+.resume {
+  margin: 0 0 12.8rem; }
+
+.resume-cap {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 0.8em;
+  color: #00a253;
+  text-align: center; }
+  .resume-cap.top {
+    margin: 0 0 6.4rem; }
+    .resume-cap.top:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      background: #00a253;
+      bottom: -6.4rem;
+      height: 4.4rem;
+      left: 50%;
+      margin: 0 0 0 -2px;
+      opacity: 0.25;
+      width: 4px; }
+    .resume-cap.top:after {
+      content: "";
+      position: absolute;
+      bottom: -2rem;
+      left: 50%;
+      margin: 0 0 0 -0.5em;
+      width: 1em;
+      height: 1em;
+      background: #00a253;
+      opacity: 0.25;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+  .resume-cap.bottom {
+    margin: 1.6em 0 0; }
+    .resume-cap.bottom:after {
+      content: "";
+      position: absolute;
+      top: -2.1rem;
+      left: 50%;
+      margin: 0 0 0 -0.5em;
+      width: 1em;
+      height: 1em;
+      background: #00a253;
+      opacity: 0.25;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+
+.resume-entry {
+  position: relative;
+  margin: 0 0 6.4rem;
+  text-align: center; }
+  .resume-entry:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: #00a253;
+    bottom: -6.4rem;
+    height: 6.4rem;
+    left: 50%;
+    margin: 0 0 0 -2px;
+    opacity: 0.25;
+    width: 4px; }
+
+.resume-job-stuff {
+  margin: 0 0 0.5em; }
+
+.resume-position {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #00a253; }
+  .resume-position:first-letter {
+    text-transform: capitalize; }
+
+.resume-company {
+  font-size: 1em;
+  font-weight: 700; }
+
+.resume-timeframe {
+  display: block;
+  font-size: 1.25em;
+  color: #999999; }
+
+.resume-location {
+  display: block;
+  color: #999999; }
+
+.contact .contact-form-message {
+  display: block;
+  width: 100%;
+  margin: 0 0 1em; }

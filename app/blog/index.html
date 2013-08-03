@@ -1,5 +1,37 @@
 ---
-layout: default
+layout: sub-page
 title: "'Allo, 'Allo!"
 ---
 
+
+
+
+<div class="wrapper">
+    <section id="blog" class="full-width">
+        <header>
+            <a href="./blog/">
+                <h2 class="section-title">the blog</h2>
+            </a>
+        </header>
+        {% for post in site.posts %}
+        {% unless post.categories == "portfolio" %}
+        <article class="post home-preview">
+            <aside class="post-meta">
+                <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                <ul class="post-meta-categories">
+                    {% for category in post.categories %}
+                    <li class="pill red category">{{ category }}
+                        {% endfor %}
+                </ul>
+            </aside>
+            <div class="post-stuff">
+                <a href=".{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+                <p>{{ post.content | strip_html | truncatewords:75}}</p>
+            </div>
+
+            <a class="read-more" href=".{{ post.url }}">read more <i class="icon-double-angle-right"></i></a>
+        </article>
+        {% endunless %}
+        {% endfor %}
+    </section>
+</div>

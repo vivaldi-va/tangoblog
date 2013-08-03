@@ -3,26 +3,7 @@ layout: default
 title: "'Allo, 'Allo!"
 ---
 
-<header class="wrapper site-head">
-    <hgroup>
-        <h1 class="site-title">Zaccary Price</h1>
-        <h2 class="site-sub-title">Front-end Developer</h2>
-    </hgroup>
-    <p class="about-content">
-        I am a front-end and web developer and designer currently located in Helsinki, Finland.
-        Currently I work for <a href="http://www.avansera.com" target="_blank">Avansera Oy</a> developing web applications, though I do occasional photography on the
-        side. I&lsquo;m a big fan of responsive web development and progressive technologies and have been playing with AngularJS, Node.js,
-        Grunt, Yeoman and Jekyll, which this very site is made with.
-    </p>
-    <aside class="header-freelance-info">
-        <strong class="header-freelance-message">I also do freelance stuff</strong>
-        <a class="btn block cta hire-button" href="#contact">hire me!</a>
-    </aside>
-    <div class="social-links">
-        <a class="btn no-style social-link" href="#"><i class="icon-twitter"></i></a>
-        <a class="btn no-style social-link" href="#"><i class="icon-envelope-alt"></i></a>
-    </div>
-</header>
+
 
 <section id="portfolio" class="wrapper">
     {% for post in site.categories.portfolio limit: 4 %}
@@ -45,7 +26,7 @@ title: "'Allo, 'Allo!"
                         <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
                         <ul class="post-meta-categories">
                             {% for category in post.categories %}
-                                <li class="pill red">{{ category }}
+                                <li class="pill red category">{{ category }}
                             {% endfor %}
                         </ul>
                     </aside>
@@ -62,77 +43,109 @@ title: "'Allo, 'Allo!"
 </div>
 
 <div class="wrapper">
-    <section id="resume" class="full-width">
+    <section id="resume" class="resume full-width">
         <header>
             <h2 class="section-title">resume</h2>
         </header>
-        <aside class="resume-top">
-            <span class="resume-cap">Today</span>
+
+        <aside class="resume-cap top">
+            Today
         </aside>
-        <article class="resume-entry">
-            <header>
-                <hgroup>
-                    <h2>Front-end developer</h2>
-                    <h3>Avansera Oy</h3>
-                    <p>
-                        Primarily front-end development for the Ostosnero web-app,
-                        with some work in back-end and database development as well as UI and web design.
-                    </p>
-                </hgroup>
-            </header>
-            <aside>
-                <span class="timeframe">February 2013 &ndash; Present</span>
-                <span class="location">Helsinki, Finland</span>
-            </aside>
-        </article>
+
 
         <article class="resume-entry">
-            <header>
+            <header class="resume-job-stuff">
                 <hgroup>
-                    <h2>Web developer</h2>
-                    <h3>Freelance</h3>
-                    <p>
-                        Developing demos and prototypes for private clients or small companies.
-                        Work is part-time and dependant on my work schedule at my day job.
-                    </p>
+                    <h2 class="resume-position">Front-end developer</h2>
+                    <h3 class="resume-company">Avansera Oy</h3>
                 </hgroup>
             </header>
-            <aside>
-                <span class="timeframe">August 2012 &ndash; Present</span>
-                <span class="location">Helsinki, Finland</span>
+            <aside class="resume-meta-stuff">
+                <span class="resume-timeframe">February 2013 &ndash; Present</span>
+                <span class="resume-location">Helsinki, Finland</span>
             </aside>
+            <section class="resume-content">
+                <p>
+                    Primarily front-end development for the Ostosnero web-app,
+                    with some work in back-end and database development as well as UI and web design.
+                </p>
+            </section>
         </article>
-
         <article class="resume-entry">
-            <header>
+            <header class="resume-job-stuff">
                 <hgroup>
-                    <h2>Web developer &amp; designer</h2>
-                    <h3>Wild Tango Media</h3>
-                    <p>
-                        Self owned business designing and developing websites primarily for small retailers and traders.
-                    </p>
+                    <h2 class="resume-position">Front-end developer</h2>
+                    <h3 class="resume-company">Avansera Oy</h3>
                 </hgroup>
             </header>
-            <aside>
-                <span class="timeframe">January 2012 &ndash; August 2012</span>
-                <span class="location">Perth, Australia</span>
+            <aside class="resume-meta-stuff">
+                <span class="resume-timeframe">February 2013 &ndash; Present</span>
+                <span class="resume-location">Helsinki, Finland</span>
             </aside>
+            <section class="resume-content">
+                <p>
+                    Primarily front-end development for the Ostosnero web-app,
+                    with some work in back-end and database development as well as UI and web design.
+                </p>
+            </section>
+        </article>
+        <article class="resume-entry">
+            <header class="resume-job-stuff">
+                <hgroup>
+                    <h2 class="resume-position">Front-end developer</h2>
+                    <h3 class="resume-company">Avansera Oy</h3>
+                </hgroup>
+            </header>
+            <aside class="resume-meta-stuff">
+                <span class="resume-timeframe">February 2013 &ndash; Present</span>
+                <span class="resume-location">Helsinki, Finland</span>
+            </aside>
+            <section class="resume-content">
+                <p>
+                    Primarily front-end development for the Ostosnero web-app,
+                    with some work in back-end and database development as well as UI and web design.
+                </p>
+            </section>
         </article>
 
-        <footer class="resume-bottom">
-            <span class="resume-cap bottom">02.08.1991</span>
+
+        <footer class="resume-cap bottom">
+            02.08.1991
         </footer>
     </section>
 </div>
-<section id="contact" class="wrapper">
-    <form action="post_message.php" method="post" id="contact-form">
-        <label for="contact-name">name:</label><input type="text" id="contact-name" name="name" autocomplete="false" tabindex="1" placeholder="e.g. Bill Nye">
-        <label for="contact-email">email:</label><input type="email" id="contact-email" name="email" autocomplete="false" tabindex="2" required placeholder="bill.nye@scienceguy.com">
-        <label for="contact-number">contact number:</label><input id="contact-number" type="tel" name="number" tabindex="3" placeholder="Don't forget the country code!">
-        <textarea name="message" id="contact-mesasge" cols="30" rows="10"></textarea>
-        <button type="submit" class="contact-submit"><i class="icon-double-angle-right"></i>Send it.</button>
-    </form>
-</section>
+
+<div class="wrapper">
+
+    <section id="contact" class="contact" class="full-width">
+        <header>
+            <h2 class="section-title">contact me</h2>
+        </header>
+
+        <form action="post_message.php" method="post" id="contact-form">
+            <div class="form-input contact-form-field">
+                <label for="contact-name" class="form-input-label contact-form-field-label">name:</label>
+                <input type="text" id="contact-name" class="input contact-form-field-input" name="name" autocomplete="false" tabindex="1" placeholder="e.g. Bill Nye">
+            </div>
+
+            <div class="form-input contact-form-field">
+                <label for="contact-email" class="form-input-label contact-form-field-label">email:</label>
+                <input type="email" id="contact-email" class="input contact-form-field-input" name="email" autocomplete="false" tabindex="2" required placeholder="bill.nye@scienceguy.com">
+            </div>
+
+            <div class="form-input contact-form-field">
+                <label for="contact-number" class="form-input-label contact-form-field-label">contact number:</label>
+                <input id="contact-number" class="input contact-form-field-input" type="tel" name="number" tabindex="3" placeholder="Don't forget the country code!">
+            </div>
+
+            <textarea name="message" class="contact-form-message" id="contact-mesasge" cols="30" rows="10"></textarea>
+
+            <button type="submit" class="btn block cta contact-form-submit">Send it.<i class="icon-double-angle-right"></i></button>
+
+        </form>
+
+    </section>
+</div>
 
 <footer class="full-width site-footer">
     <div class="wrapper">

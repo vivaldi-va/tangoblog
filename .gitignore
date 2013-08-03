@@ -9,4 +9,6 @@ dist
 app/bower_components
 
 app/_site
+app/_posts
+app/_drafts
 .idea
