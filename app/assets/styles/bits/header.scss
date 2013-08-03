@@ -45,7 +45,8 @@
 
 .about-content {
   color: $muted;
-  margin: 0 0 3.2rem;
+  max-width: 33em;
+  margin: 0 auto 3.2rem;
 
 }
 
@@ -55,20 +56,39 @@
   margin: 0 0 3.2rem;
 
   .header-freelance-message {
-    display: inline-block;
+    display: block;
     margin: 0 0 3.2rem;
   }
 
 }
 
 
-.social-links {
 
-}
+
 .social-link {
   float: left;
   width: 50%;
   font-size: 2em;
   color: $muted;
+
+  &:hover {
+    font-size: 2em;
+  }
 }
 
+@media screen and (min-width: 568px) {
+  //body:before {
+  //  content: "tablet style";
+  //}
+
+
+  .social-links {
+    float: left;
+    width: 100%;
+
+    .social-link {
+      float: none;
+    }
+  }
+
+}

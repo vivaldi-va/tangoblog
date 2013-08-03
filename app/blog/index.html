@@ -3,15 +3,10 @@ layout: sub-page
 title: "'Allo, 'Allo!"
 ---
 
-
-
-
 <div class="wrapper">
     <section id="blog" class="full-width">
         <header>
-            <a href="./blog/">
-                <h2 class="section-title">the blog</h2>
-            </a>
+            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
         </header>
         {% for post in site.posts %}
         {% unless post.categories == "portfolio" %}
@@ -25,11 +20,11 @@ title: "'Allo, 'Allo!"
                 </ul>
             </aside>
             <div class="post-stuff">
-                <a href=".{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+                <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>{{ post.content | strip_html | truncatewords:75}}</p>
             </div>
 
-            <a class="read-more" href=".{{ post.url }}">read more <i class="icon-double-angle-right"></i></a>
+            <a class="read-more" href="{{ post.url }}">read more</a>
         </article>
         {% endunless %}
         {% endfor %}

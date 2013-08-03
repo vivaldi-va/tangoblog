@@ -4,10 +4,13 @@
   display: block;
   height: $touchTarget;
   margin: 0 0 1.6rem;
-  line-height: $touchTarget;
+  padding: 0 1em;
 
   border: none;
+
+  line-height: $touchTarget;
   color: $white;
+  text-decoration: none;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -19,10 +22,7 @@
   -o-transition: 0.2s all ease;
   transition: 0.2s all ease;
 
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
+
 
   &.block {
     display: block;
@@ -41,7 +41,7 @@
   &:hover,
   &:active {
     background: lighten($muted, 10%);
-    font-size: 1.1em;
+    //font-size: 1.1em;
   }
 
   &.cta {
@@ -68,4 +68,14 @@
   }
 
 
+}
+
+
+@media screen and (min-width: 568px) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    width: auto;
+  }
 }

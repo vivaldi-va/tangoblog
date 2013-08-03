@@ -1,5 +1,6 @@
 .resume {
   margin: 0 0 12.8rem;
+  text-align: center;
 }
 .resume-cap {
   position: relative;
@@ -75,11 +76,10 @@
 
 .resume-entry {
   position: relative;
-  //float: left;
+  float: left;
   //width: 100%;
   margin: 0 0 6.4rem;
 
-  text-align: center;
 
   &:after {
     content: "";
@@ -125,5 +125,69 @@
 .resume-location {
   display: block;
   color: $muted;
+}
+
+@media screen and (min-width: 568px) {
+
+  .resume {
+    text-align: left;
+
+    .resume-entry {
+      &:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background: $green;
+
+
+        top: 0;
+        height: 100%;
+        left: 50%;
+        margin: 0 0 0 -2px;
+        opacity: 0.25;
+        width: 4px;
+      }
+    }
+
+    .resume-meta-stuff,
+    .resume-important-stuff {
+      float: left;
+      width: 50%;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .resume-meta-stuff {
+      padding: 0 1em 0 0;
+      text-align: right;
+    }
+
+    .resume-important-stuff {
+      padding: 0 0 0 1em;
+    }
+
+
+    .resume-position {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background: $green;
+
+        top: 0.75em;
+        left: -1.4rem;
+
+        height: 4px;
+        width: 10px;
+
+        margin: -2px 0 0 0;
+        opacity: 0.25;
+      }
+    }
+  }
 }
 

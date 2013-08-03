@@ -9,10 +9,29 @@ body {
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 1.5em;
+  padding: 0 1.5em;
 }
 
 .full-width {
   float: left;
   width: 100%;
+  //margin: 0 0 12.8rem;
+  margin: 0 0 6.4rem;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 568px) {
+
+  .full-width {
+    margin: 0 0 12.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
 }

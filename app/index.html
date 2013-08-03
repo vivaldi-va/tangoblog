@@ -15,9 +15,7 @@ title: "'Allo, 'Allo!"
 <div class="wrapper">
     <section id="blog" class="full-width">
         <header>
-            <a href="./blog/">
-                <h2 class="section-title">the blog</h2>
-            </a>
+            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
         </header>
         {% for post in site.posts limit: 1 %}
             {% unless post.categories == "portfolio" %}
@@ -31,11 +29,11 @@ title: "'Allo, 'Allo!"
                         </ul>
                     </aside>
                     <div class="post-stuff">
-                        <a href=".{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+                      <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p>{{ post.content | strip_html | truncatewords:75}}</p>
                     </div>
 
-                    <a class="read-more" href=".{{ post.url }}">read more <i class="icon-double-angle-right"></i></a>
+                    <a class="read-more" href="{{ post.url }}">read more</a>
                 </article>
             {% endunless %}
         {% endfor %}
@@ -44,69 +42,82 @@ title: "'Allo, 'Allo!"
 
 <div class="wrapper">
     <section id="resume" class="resume full-width">
-        <header>
-            <h2 class="section-title">resume</h2>
-        </header>
 
-        <aside class="resume-cap top">
-            Today
-        </aside>
+
+            <header>
+                <h2 class="section-title">resume</h2>
+            </header>
+
+            <aside class="resume-cap top">
+                Today
+            </aside>
+
 
 
         <article class="resume-entry">
-            <header class="resume-job-stuff">
-                <hgroup>
-                    <h2 class="resume-position">Front-end developer</h2>
-                    <h3 class="resume-company">Avansera Oy</h3>
-                </hgroup>
-            </header>
             <aside class="resume-meta-stuff">
                 <span class="resume-timeframe">February 2013 &ndash; Present</span>
                 <span class="resume-location">Helsinki, Finland</span>
             </aside>
-            <section class="resume-content">
-                <p>
-                    Primarily front-end development for the Ostosnero web-app,
-                    with some work in back-end and database development as well as UI and web design.
-                </p>
-            </section>
+            <div class="resume-important-stuff">
+                <header class="resume-job-stuff">
+                    <hgroup>
+                        <h2 class="resume-position">Front-end developer</h2>
+                        <h3 class="resume-company">Avansera Oy</h3>
+                    </hgroup>
+                </header>
+
+                <section class="resume-content">
+                    <p>
+                        Primarily front-end development for the Ostosnero web-app,
+                        with some work in back-end and database development as well as UI and web design.
+                    </p>
+                </section>
+            </div>
         </article>
         <article class="resume-entry">
-            <header class="resume-job-stuff">
-                <hgroup>
-                    <h2 class="resume-position">Front-end developer</h2>
-                    <h3 class="resume-company">Avansera Oy</h3>
-                </hgroup>
-            </header>
             <aside class="resume-meta-stuff">
                 <span class="resume-timeframe">February 2013 &ndash; Present</span>
                 <span class="resume-location">Helsinki, Finland</span>
             </aside>
-            <section class="resume-content">
-                <p>
-                    Primarily front-end development for the Ostosnero web-app,
-                    with some work in back-end and database development as well as UI and web design.
-                </p>
-            </section>
+            <div class="resume-important-stuff">
+                <header class="resume-job-stuff">
+                    <hgroup>
+                        <h2 class="resume-position">Front-end developer</h2>
+                        <h3 class="resume-company">Avansera Oy</h3>
+                    </hgroup>
+                </header>
+
+                <section class="resume-content">
+                    <p>
+                        Primarily front-end development for the Ostosnero web-app,
+                        with some work in back-end and database development as well as UI and web design.
+                    </p>
+                </section>
+            </div>
         </article>
         <article class="resume-entry">
-            <header class="resume-job-stuff">
-                <hgroup>
-                    <h2 class="resume-position">Front-end developer</h2>
-                    <h3 class="resume-company">Avansera Oy</h3>
-                </hgroup>
-            </header>
             <aside class="resume-meta-stuff">
                 <span class="resume-timeframe">February 2013 &ndash; Present</span>
                 <span class="resume-location">Helsinki, Finland</span>
             </aside>
-            <section class="resume-content">
-                <p>
-                    Primarily front-end development for the Ostosnero web-app,
-                    with some work in back-end and database development as well as UI and web design.
-                </p>
-            </section>
+            <div class="resume-important-stuff">
+                <header class="resume-job-stuff">
+                    <hgroup>
+                        <h2 class="resume-position">Front-end developer</h2>
+                        <h3 class="resume-company">Avansera Oy</h3>
+                    </hgroup>
+                </header>
+
+                <section class="resume-content">
+                    <p>
+                        Primarily front-end development for the Ostosnero web-app,
+                        with some work in back-end and database development as well as UI and web design.
+                    </p>
+                </section>
+            </div>
         </article>
+
 
 
         <footer class="resume-cap bottom">
@@ -115,9 +126,9 @@ title: "'Allo, 'Allo!"
     </section>
 </div>
 
-<div class="wrapper">
 
-    <section id="contact" class="contact" class="full-width">
+<section id="contact" class="full-width contact">
+    <div class="wrapper">
         <header>
             <h2 class="section-title">contact me</h2>
         </header>
@@ -144,8 +155,8 @@ title: "'Allo, 'Allo!"
 
         </form>
 
-    </section>
-</div>
+    </div>
+</section>
 
 <footer class="full-width site-footer">
     <div class="wrapper">

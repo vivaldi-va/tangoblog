@@ -19,14 +19,16 @@ a {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
   a:link, a:visited {
     color: inherit; }
-  a h1,
-  a h2,
-  a h3 {
-    text-decoration: none; }
+
+h1 a,
+h2 a,
+h3 a,
+hgroup a {
+  text-decoration: none; }
 
 a:hover,
 a:active,
@@ -48,9 +50,11 @@ a:focus {
   display: block;
   height: 35pt;
   margin: 0 0 1.6rem;
-  line-height: 35pt;
+  padding: 0 1em;
   border: none;
+  line-height: 35pt;
   color: white;
+  text-decoration: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -59,12 +63,6 @@ a:focus {
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
   transition: 0.2s all ease; }
-  .btn:hover, .btn:active,
-  .btn:link:hover,
-  .btn:link:active,
-  .btn:visited:hover,
-  .btn:visited:active {
-    text-decoration: none; }
   .btn.block,
   .btn:link.block,
   .btn:visited.block {
@@ -80,8 +78,7 @@ a:focus {
   .btn:link:active,
   .btn:visited:hover,
   .btn:visited:active {
-    background: #b3b3b3;
-    font-size: 1.1em; }
+    background: #b3b3b3; }
   .btn.cta,
   .btn:link.cta,
   .btn:visited.cta {
@@ -107,6 +104,12 @@ a:focus {
     .btn:visited.no-style:active {
       color: #00a253; }
 
+@media screen and (min-width: 568px) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    width: auto; } }
 .pill {
   display: inline-block;
   padding: 0 0.5em 0.2em;
@@ -159,12 +162,21 @@ body {
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 1.5em; }
+  padding: 0 1.5em; }
 
 .full-width {
   float: left;
-  width: 100%; }
+  width: 100%;
+  margin: 0 0 6.4rem; }
+  .full-width:last-child {
+    margin: 0; }
 
+@media screen and (min-width: 568px) {
+  .full-width {
+    margin: 0 0 12.8rem; } }
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 12px; } }
 .site-head {
   text-align: center; }
   .site-head hgroup {
@@ -200,12 +212,13 @@ body {
 
 .about-content {
   color: #999999;
-  margin: 0 0 3.2rem; }
+  max-width: 33em;
+  margin: 0 auto 3.2rem; }
 
 .header-freelance-info {
   margin: 0 0 3.2rem; }
   .header-freelance-info .header-freelance-message {
-    display: inline-block;
+    display: block;
     margin: 0 0 3.2rem; }
 
 .social-link {
@@ -213,45 +226,53 @@ body {
   width: 50%;
   font-size: 2em;
   color: #999999; }
+  .social-link:hover {
+    font-size: 2em; }
 
-.home-preview {
-  float: left;
-  width: 100%; }
-  .home-preview .post-meta {
+@media screen and (min-width: 568px) {
+  .social-links {
+    float: left;
+    width: 100%; }
+    .social-links .social-link {
+      float: none; } }
+.post {
+  text-align: center; }
+  .post .post-meta {
     float: left;
     width: 100%;
-    text-align: center; }
-    .home-preview .post-meta .post-meta-date {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .post .post-meta .post-meta-date {
       font-weight: 300;
-      color: #00a253; }
-    .home-preview .post-meta .post-meta-categories {
+      color: #00a253;
+      opacity: 0.5; }
+    .post .post-meta .post-meta-categories {
       float: left;
       width: 100%;
       margin: 0;
       padding: 0;
-      list-style: none;
-      text-align: center; }
-      .home-preview .post-meta .post-meta-categories .category {
-        font-size: 0.8em; }
-  .home-preview .post-stuff {
+      list-style: none; }
+      .post .post-meta .post-meta-categories .category {
+        font-size: 0.8em;
+        margin: 0 0 0.25em 0.5em; }
+  .post .post-stuff {
     float: left;
     width: 100%;
     margin: 3.2rem 0 0; }
-    .home-preview .post-stuff .post-title {
+    .post .post-stuff .post-title {
       font-size: 1.25em;
       font-weight: 700;
-      color: #00a253;
-      text-align: center; }
-      .home-preview .post-stuff .post-title:first-letter {
+      color: #00a253; }
+      .post .post-stuff .post-title:first-letter {
         text-transform: capitalize; }
-  .home-preview .read-more {
+  .post .read-more {
     position: relative;
     float: left;
     width: 100%;
     height: 35pt;
     font-size: 0.8em;
     color: #00a253;
-    text-align: center;
     /*[class*='icon-'] {
       position: absolute;
       top: auto;
@@ -262,8 +283,45 @@ body {
       font-size: 3em;
     }*/ }
 
+@media screen and (min-width: 568px) {
+  .post {
+    text-align: left; }
+    .post .post-meta {
+      float: left;
+      width: 20%;
+      padding: 0 1em 0 0;
+      text-align: right; }
+      .post .post-meta .post-meta-date {
+        font-size: 1.5em;
+        line-height: 1.2; }
+    .post .post-stuff {
+      float: left;
+      width: 60%;
+      margin: 0; }
+    .post .read-more {
+      position: relative;
+      float: left;
+      width: 20%;
+      padding: 6em 0 0;
+      text-align: center;
+      text-decoration: none;
+      opacity: 0.5; }
+      .post .read-more:before {
+        content: "\f101";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 6em;
+        font-family: 'FontAwesome';
+        font-size: 6.5em;
+        line-height: 1em;
+        text-align: center; }
+      .post .read-more:hover {
+        opacity: 1; } }
 .resume {
-  margin: 0 0 12.8rem; }
+  margin: 0 0 12.8rem;
+  text-align: center; }
 
 .resume-cap {
   position: relative;
@@ -316,8 +374,8 @@ body {
 
 .resume-entry {
   position: relative;
-  margin: 0 0 6.4rem;
-  text-align: center; }
+  float: left;
+  margin: 0 0 6.4rem; }
   .resume-entry:after {
     content: "";
     position: absolute;
@@ -353,6 +411,45 @@ body {
   display: block;
   color: #999999; }
 
+@media screen and (min-width: 568px) {
+  .resume {
+    text-align: left; }
+    .resume .resume-entry:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      background: #00a253;
+      top: 0;
+      height: 100%;
+      left: 50%;
+      margin: 0 0 0 -2px;
+      opacity: 0.25;
+      width: 4px; }
+    .resume .resume-meta-stuff,
+    .resume .resume-important-stuff {
+      float: left;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .resume .resume-meta-stuff {
+      padding: 0 1em 0 0;
+      text-align: right; }
+    .resume .resume-important-stuff {
+      padding: 0 0 0 1em; }
+    .resume .resume-position {
+      position: relative; }
+      .resume .resume-position:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background: #00a253;
+        top: 0.75em;
+        left: -1.4rem;
+        height: 4px;
+        width: 10px;
+        margin: -2px 0 0 0;
+        opacity: 0.25; } }
 .contact .contact-form-message {
   display: block;
   width: 100%;
