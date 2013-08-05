@@ -4,6 +4,30 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  font-size: 10px; }
+
+body {
+  background: #f7f7f7; }
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5em; }
+
+.full-width {
+  float: left;
+  width: 100%;
+  margin: 0 0 6.4rem; }
+  .full-width.site-footer {
+    margin: 0; }
+
+@media screen and (min-width: 568px) {
+  .full-width {
+    margin: 0 0 12.8rem; } }
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 12px; } }
 body {
   font: 400 1.6rem/1.5 'lato', sans-serif;
   color: #4f4f4f; }
@@ -44,6 +68,18 @@ a:focus {
   text-transform: capitalize;
   text-align: center; }
 
+.mobile-only {
+  display: block; }
+
+.desktop-only {
+  display: none; }
+
+@media screen and (min-width: 568px) {
+  .mobile-only {
+    display: none; }
+
+  .desktop-only {
+    display: block; } }
 .btn,
 .btn:link,
 .btn:visited {
@@ -153,32 +189,102 @@ textarea {
   font-weight: 700;
   text-transform: uppercase; }
 
-html {
-  font-size: 10px; }
+.site-nav {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background: #ef422b;
+  height: 10px;
+  margin: 0 0 3.2rem;
+  padding: 10px 0 0;
+  color: white;
+  line-height: 35pt;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.25s height ease-in;
+  -moz-transition: 0.25s height ease-in;
+  -ms-transition: 0.25s height ease-in;
+  -o-transition: 0.25s height ease-in;
+  transition: 0.25s height ease-in; }
+  .site-nav.active {
+    height: auto; }
+  .site-nav .tango-logo-wrapper {
+    float: left;
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .site-nav .tango-logo-wrapper .tango-logo {
+      width: 35pt;
+      height: 35pt;
+      margin: 0 auto; }
+  .site-nav .site-nav-links-wrapper {
+    float: left;
+    width: 100%; }
+  .site-nav .site-nav-link {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 35pt;
+    font-weight: 700;
+    line-height: 35pt;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none; }
+    .site-nav .site-nav-link:hover, .site-nav .site-nav-link:active, .site-nav .site-nav-link:focus {
+      color: inherit;
+      font-weight: 700; }
 
-body {
-  background: #f7f7f7; }
+.no-svg .tango-logo {
+  background: url("/images/logo.png") no-repeat 0 0; }
 
-.wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5em; }
+.svg .tango-logo {
+  background: url("/images/logo.svg") no-repeat 0 0; }
 
-.full-width {
-  float: left;
-  width: 100%;
-  margin: 0 0 6.4rem; }
-  .full-width:last-child {
-    margin: 0; }
+.nav-open,
+.nav-open:link,
+.nav-open:visited {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1001;
+  width: 35pt;
+  height: 35pt;
+  font-size: 2em;
+  line-height: 35pt;
+  text-align: center;
+  text-decoration: none; }
+  .nav-open.active,
+  .nav-open:link.active,
+  .nav-open:visited.active {
+    color: white; }
 
 @media screen and (min-width: 568px) {
-  .full-width {
-    margin: 0 0 12.8rem; } }
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 12px; } }
+  .site-nav {
+    position: static;
+    height: 35pt;
+    padding: 0; }
+    .site-nav .tango-logo-wrapper {
+      width: 35pt;
+      height: 35pt; }
+    .site-nav .site-nav-links-wrapper {
+      width: auto;
+      float: right; }
+    .site-nav .site-nav-link {
+      width: auto;
+      margin: 0 0.5em; }
+      .site-nav .site-nav-link + .site-nav-link:before {
+        content: "|";
+        position: absolute;
+        left: -0.6em;
+        opacity: 0.5; } }
 .site-head {
-  text-align: center; }
+  text-align: center;
+  margin-top: 3.2rem; }
   .site-head hgroup {
     margin: 0 0 6.4rem; }
 
@@ -187,6 +293,7 @@ body {
   margin: 6.4rem 0 0;
   color: #ef422b;
   font-size: 3.2em;
+  line-height: 1;
   font-weight: 400;
   text-transform: uppercase; }
   .site-title:before {
@@ -235,6 +342,49 @@ body {
     width: 100%; }
     .social-links .social-link {
       float: none; } }
+.portfolio-entry-wrapper {
+  float: left;
+  width: 100%;
+  margin: 0 0 3.2rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .portfolio-entry-wrapper .portfolio-image-wrapper {
+    max-width: 400px;
+    margin: 0 auto; }
+    .portfolio-entry-wrapper .portfolio-image-wrapper .portfolio-image {
+      max-width: 100%;
+      height: auto;
+      margin: 0 0 1em;
+      border: 5px solid #dfdfdf;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: 0.1s all linear;
+      -moz-transition: 0.1s all linear;
+      -ms-transition: 0.1s all linear;
+      -o-transition: 0.1s all linear;
+      transition: 0.1s all linear; }
+    .portfolio-entry-wrapper .portfolio-image-wrapper .portfolio-entry-title {
+      font-size: 1.2em;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase; }
+    .portfolio-entry-wrapper .portfolio-image-wrapper .portfolio-entry-date {
+      position: absolute;
+      left: -9000px; }
+  .portfolio-entry-wrapper .portfolio-link {
+    text-decoration: none; }
+    .portfolio-entry-wrapper .portfolio-link:hover .portfolio-image, .portfolio-entry-wrapper .portfolio-link:active .portfolio-image {
+      border-color: #00a253; }
+
+@media screen and (min-width: 568px) {
+  .portfolio-entry-wrapper {
+    float: left;
+    width: 50%;
+    padding: 0 1em; }
+    .portfolio-entry-wrapper .portfolio-image-wrapper {
+      max-width: 800px; } }
 .post {
   text-align: center; }
   .post .post-meta {
@@ -266,6 +416,10 @@ body {
       color: #00a253; }
       .post .post-stuff .post-title:first-letter {
         text-transform: capitalize; }
+    .post .post-stuff .post-text {
+      text-align: left; }
+      .post .post-stuff .post-text:first-letter {
+        text-transform: capitalize; }
   .post .read-more {
     position: relative;
     float: left;
@@ -285,7 +439,10 @@ body {
 
 @media screen and (min-width: 568px) {
   .post {
+    float: left;
     text-align: left; }
+    .post + .post {
+      margin: 3.2rem 0 0; }
     .post .post-meta {
       float: left;
       width: 20%;
@@ -298,10 +455,13 @@ body {
       float: left;
       width: 60%;
       margin: 0; }
+    .post .post-text:first-letter {
+      text-transform: uppercase; }
     .post .read-more {
       position: relative;
       float: left;
       width: 20%;
+      margin: 3.2rem 0 0;
       padding: 6em 0 0;
       text-align: center;
       text-decoration: none;
@@ -312,7 +472,6 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        height: 6em;
         font-family: 'FontAwesome';
         font-size: 6.5em;
         line-height: 1em;
@@ -394,13 +553,13 @@ body {
 .resume-position {
   font-size: 1.25em;
   font-weight: 700;
-  color: #00a253; }
-  .resume-position:first-letter {
-    text-transform: capitalize; }
+  color: #00a253;
+  text-transform: capitalize; }
 
 .resume-company {
   font-size: 1em;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: capitalize; }
 
 .resume-timeframe {
   display: block;
@@ -414,17 +573,19 @@ body {
 @media screen and (min-width: 568px) {
   .resume {
     text-align: left; }
-    .resume .resume-entry:before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      background: #00a253;
-      top: 0;
-      height: 100%;
-      left: 50%;
-      margin: 0 0 0 -2px;
-      opacity: 0.25;
-      width: 4px; }
+    .resume .resume-entry {
+      width: 100%; }
+      .resume .resume-entry:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background: #00a253;
+        top: 0;
+        height: 100%;
+        left: 50%;
+        margin: 0 0 0 -2px;
+        opacity: 0.25;
+        width: 4px; }
     .resume .resume-meta-stuff,
     .resume .resume-important-stuff {
       float: left;
@@ -454,3 +615,15 @@ body {
   display: block;
   width: 100%;
   margin: 0 0 1em; }
+
+@media screen and (min-width: 568px) {
+  .contact fieldset {
+    float: left;
+    width: 50%;
+    padding: 0 2rem 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; } }
+.site-footer {
+  background: #4f4f4f;
+  color: white; }

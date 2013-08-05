@@ -3,30 +3,23 @@ layout: sub-page
 title: "'Allo, 'Allo!"
 ---
 
-<div class="wrapper">
     <section id="blog" class="full-width">
-        <header>
-            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
-        </header>
-        {% for post in site.posts %}
-        {% unless post.categories == "portfolio" %}
-        <article class="post home-preview">
-            <aside class="post-meta">
-                <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
-                <ul class="post-meta-categories">
-                    {% for category in post.categories %}
-                    <li class="pill red category">{{ category }}
-                        {% endfor %}
-                </ul>
-            </aside>
-            <div class="post-stuff">
-                <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <p>{{ post.content | strip_html | truncatewords:75}}</p>
-            </div>
+        <div class="wrapper">
+            <header>
+                <h2 class="section-title"><a href="/blog/">the blog</a></h2>
+            </header>
+            {% for post in site.categories.blog %}
+            <article class="post home-preview">
+                <aside class="post-meta">
+                    <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                </aside>
+                <div class="post-stuff">
+                    <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p>{{ post.content | strip_html | truncatewords:75}}</p>
+                </div>
 
-            <a class="read-more" href="{{ post.url }}">read more</a>
-        </article>
-        {% endunless %}
-        {% endfor %}
+                <a class="read-more" href="{{ post.url }}">read more</a>
+            </article>
+            {% endfor %}
+        </div>
     </section>
-</div>

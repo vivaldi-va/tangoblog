@@ -3,6 +3,22 @@ layout: default
 title: This is just a placeholder post
 ---
 
-<h1>{{ post.title }}</h1>
+<article class="post">
+    <div class="wrapper">
+        <header>
+            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
+        </header>
 
-{{ content }}
+        <article class="post home-preview">
+            <aside class="post-meta">
+                <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+            </aside>
+            <div class="post-stuff">
+                <h2 class="post-title">{{ post.title }}</h2>
+                {{ content }}}
+            </div>
+        </article>
+    </div>
+</article>
+
+

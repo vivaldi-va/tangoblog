@@ -1,0 +1,30 @@
+.contact {
+
+    .contact-form-field-input {
+
+    }
+
+    .contact-form-message {
+      display: block;
+      width: 100%;
+      margin: 0 0 1em;
+    }
+
+    .contact-form-submit {
+
+    }
+}
+
+@media screen and (min-width: 568px) {
+  .contact {
+    fieldset {
+      float: left;
+      width: 50%;
+      padding: 0 2rem 0 0;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -5,43 +5,49 @@ title: "'Allo, 'Allo!"
 
 
 
-<section id="portfolio" class="wrapper">
-    {% for post in site.categories.portfolio limit: 4 %}
-         <div class="portfolio-item-wrapper"><img src="" alt="{{ post.title }}"/></div>
-    {% endfor %}
+<section id="portfolio" class="full-width">
+    <div class="wrapper">
+        <header>
+            <h2 class="section-title"><a href="/blog/">my work</a></h2>
+        </header>
+        {% for post in site.categories.portfolio limit: 4 %}
+             <article class="portfolio-entry-wrapper">
+                 <div class="portfolio-image-wrapper">
+                     <a href="{{ post.url }}" class="portfolio-link">
+                         <img class="portfolio-image" src="{{ post.image }}" alt="{{ post.title }}"/>
+                         <h2 class="portfolio-entry-title">{{ post.title }}</h2>
+                         <span class="portfolio-entry-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                     </a>
+                 </div>
+             </article>
+        {% endfor %}
+    </div>
 </section>
 
 
-<div class="wrapper">
     <section id="blog" class="full-width">
-        <header>
-            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
-        </header>
-        {% for post in site.posts limit: 1 %}
-            {% unless post.categories == "portfolio" %}
+        <div class="wrapper">
+            <header>
+                <h2 class="section-title"><a href="/blog/">the blog</a></h2>
+            </header>
+            {% for post in site.categories.blog limit: 1 %}
                 <article class="post home-preview">
                     <aside class="post-meta">
                         <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
-                        <ul class="post-meta-categories">
-                            {% for category in post.categories %}
-                                <li class="pill red category">{{ category }}
-                            {% endfor %}
-                        </ul>
                     </aside>
                     <div class="post-stuff">
                       <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.content | strip_html | truncatewords:75}}</p>
+                        <p class="post-text">{{ post.content | strip_html | truncatewords:75}}</p>
                     </div>
 
                     <a class="read-more" href="{{ post.url }}">read more</a>
                 </article>
-            {% endunless %}
-        {% endfor %}
+            {% endfor %}
+        </div>
     </section>
-</div>
 
-<div class="wrapper">
     <section id="resume" class="resume full-width">
+        <div class="wrapper">
 
 
             <header>
@@ -54,77 +60,75 @@ title: "'Allo, 'Allo!"
 
 
 
-        <article class="resume-entry">
-            <aside class="resume-meta-stuff">
-                <span class="resume-timeframe">February 2013 &ndash; Present</span>
-                <span class="resume-location">Helsinki, Finland</span>
-            </aside>
-            <div class="resume-important-stuff">
-                <header class="resume-job-stuff">
-                    <hgroup>
-                        <h2 class="resume-position">Front-end developer</h2>
-                        <h3 class="resume-company">Avansera Oy</h3>
-                    </hgroup>
-                </header>
+            <article class="resume-entry">
+                <aside class="resume-meta-stuff">
+                    <span class="resume-timeframe">February 2013 &ndash; Present</span>
+                    <span class="resume-location">Helsinki, Finland</span>
+                </aside>
+                <div class="resume-important-stuff">
+                    <header class="resume-job-stuff">
+                        <hgroup>
+                            <h2 class="resume-position">Front-end developer</h2>
+                            <h3 class="resume-company">Avansera Oy</h3>
+                        </hgroup>
+                    </header>
 
-                <section class="resume-content">
-                    <p>
-                        Primarily front-end development for the Ostosnero web-app,
-                        with some work in back-end and database development as well as UI and web design.
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="resume-entry">
-            <aside class="resume-meta-stuff">
-                <span class="resume-timeframe">February 2013 &ndash; Present</span>
-                <span class="resume-location">Helsinki, Finland</span>
-            </aside>
-            <div class="resume-important-stuff">
-                <header class="resume-job-stuff">
-                    <hgroup>
-                        <h2 class="resume-position">Front-end developer</h2>
-                        <h3 class="resume-company">Avansera Oy</h3>
-                    </hgroup>
-                </header>
+                    <section class="resume-content">
+                        <p>
+                            Primarily front-end development for the Ostosnero web-app,
+                            with some work in back-end and database development as well as UI and web design.
+                        </p>
+                    </section>
+                </div>
+            </article>
+            <article class="resume-entry">
+                <aside class="resume-meta-stuff">
+                    <span class="resume-timeframe">August 2012 &ndash; Present</span>
+                    <span class="resume-location">Helsinki, Finland</span>
+                </aside>
+                <div class="resume-important-stuff">
+                    <header class="resume-job-stuff">
+                        <hgroup>
+                            <h2 class="resume-position">web developer</h2>
+                            <h3 class="resume-company">freelance</h3>
+                        </hgroup>
+                    </header>
 
-                <section class="resume-content">
-                    <p>
-                        Primarily front-end development for the Ostosnero web-app,
-                        with some work in back-end and database development as well as UI and web design.
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="resume-entry">
-            <aside class="resume-meta-stuff">
-                <span class="resume-timeframe">February 2013 &ndash; Present</span>
-                <span class="resume-location">Helsinki, Finland</span>
-            </aside>
-            <div class="resume-important-stuff">
-                <header class="resume-job-stuff">
-                    <hgroup>
-                        <h2 class="resume-position">Front-end developer</h2>
-                        <h3 class="resume-company">Avansera Oy</h3>
-                    </hgroup>
-                </header>
+                    <section class="resume-content">
+                        <p>
+                            Developing various web applications, as well as creating demos and prototypes or providing consultation for private clients or small companies.
+                        </p>
+                    </section>
+                </div>
+            </article>
+            <article class="resume-entry">
+                <aside class="resume-meta-stuff">
+                    <span class="resume-timeframe">January 2012 &ndash; August 2012</span>
+                    <span class="resume-location">Perth, Australia</span>
+                </aside>
+                <div class="resume-important-stuff">
+                    <header class="resume-job-stuff">
+                        <hgroup>
+                            <h2 class="resume-position">web designer & developer</h2>
+                            <h3 class="resume-company">Wild Tango Media</h3>
+                        </hgroup>
+                    </header>
 
-                <section class="resume-content">
-                    <p>
-                        Primarily front-end development for the Ostosnero web-app,
-                        with some work in back-end and database development as well as UI and web design.
-                    </p>
-                </section>
-            </div>
-        </article>
+                    <section class="resume-content">
+                        <p>
+                            Self owned business designing and developing websites primarily for small businesses.
+                        </p>
+                    </section>
+                </div>
+            </article>
 
 
 
-        <footer class="resume-cap bottom">
-            02.08.1991
-        </footer>
+            <footer class="resume-cap bottom">
+                02.08.1991
+            </footer>
+        </div>
     </section>
-</div>
 
 
 <section id="contact" class="full-width contact">
@@ -134,24 +138,31 @@ title: "'Allo, 'Allo!"
         </header>
 
         <form action="post_message.php" method="post" id="contact-form">
-            <div class="form-input contact-form-field">
-                <label for="contact-name" class="form-input-label contact-form-field-label">name:</label>
-                <input type="text" id="contact-name" class="input contact-form-field-input" name="name" autocomplete="false" tabindex="1" placeholder="e.g. Bill Nye">
-            </div>
+            <fieldset>
+                <div class="form-input contact-form-field">
+                    <label for="contact-name" class="form-input-label contact-form-field-label">name:</label>
+                    <input type="text" id="contact-name" class="input contact-form-field-input" name="name" autocomplete="false" tabindex="1" placeholder="e.g. Bill Nye">
+                </div>
 
-            <div class="form-input contact-form-field">
-                <label for="contact-email" class="form-input-label contact-form-field-label">email:</label>
-                <input type="email" id="contact-email" class="input contact-form-field-input" name="email" autocomplete="false" tabindex="2" required placeholder="bill.nye@scienceguy.com">
-            </div>
+                <div class="form-input contact-form-field">
+                    <label for="contact-email" class="form-input-label contact-form-field-label">email:</label>
+                    <input type="email" id="contact-email" class="input contact-form-field-input" name="email" autocomplete="false" tabindex="2" required placeholder="bill.nye@scienceguy.com">
+                </div>
 
-            <div class="form-input contact-form-field">
-                <label for="contact-number" class="form-input-label contact-form-field-label">contact number:</label>
-                <input id="contact-number" class="input contact-form-field-input" type="tel" name="number" tabindex="3" placeholder="Don't forget the country code!">
-            </div>
+                <div class="form-input contact-form-field">
+                    <label for="contact-number" class="form-input-label contact-form-field-label">contact number:</label>
+                    <input id="contact-number" class="input contact-form-field-input" type="tel" name="number" tabindex="3" placeholder="Don't forget the country code!">
+                </div>
+            </fieldset>
 
-            <textarea name="message" class="contact-form-message" id="contact-mesasge" cols="30" rows="10"></textarea>
+            <fieldset>
+                <div class="form-input contact-form-field">
+                    <label for="contact-message" class="form-input-label contact-form-field-label">the message:</label>
+                    <textarea name="message" class="contact-form-message" id="contact-message" cols="30" rows="10"></textarea>
+                </div>
 
-            <button type="submit" class="btn block cta contact-form-submit">Send it.<i class="icon-double-angle-right"></i></button>
+                <button type="submit" class="btn block cta contact-form-submit">Send it.</button>
+            </fieldset>
 
         </form>
 

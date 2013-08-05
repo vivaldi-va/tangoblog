@@ -105,14 +105,13 @@
   font-size: 1.25em;
   font-weight: 700;
   color: $green;
-  &:first-letter {
-    text-transform: capitalize;
-  }
+  text-transform: capitalize;
 }
 
 .resume-company {
   font-size: 1em;
   font-weight: 700;
+  text-transform: capitalize;
 
 }
 
@@ -133,6 +132,8 @@
     text-align: left;
 
     .resume-entry {
+      width: 100%;
+
       &:before {
         content: "";
         position: absolute;
@@ -171,7 +172,6 @@
 
     .resume-position {
       position: relative;
-
       &:before {
         content: "";
         position: absolute;
