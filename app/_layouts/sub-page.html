@@ -1,54 +1,25 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Zaccary Price &mdash; Frontend Web Developer | Portfolio and Weblog</title>
-    <meta name="description" content="">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-
-    <!-- standard viewport tag to set the viewport to the device's width
-, Android 2.3 devices need this so 100% width works properly and
-doesn't allow children to blow up the viewport width-->
-    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
-    <meta http-equiv="cleartype" content="on">
-    <meta name="description" content="">
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:js ./assets/scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-
-    <!-- build:css ./assets/styles/main.css -->
-    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/assets/styles/h5bp.css">
-    <link rel="stylesheet" href="/bower_components/font-awesome/build/assets/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/assets/styles/app.css">
-    <!-- endbuild -->
-</head>
+{% include meta.html %}
 <body>
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
 
+
+{% include navigation.html %}
+
 <header class="full-width site-head">
     <div class="wrapper">
-        <hgroup>
-            <a href="/">
-                <h1 class="site-title">Zaccary Price</h1>
-                <h2 class="site-sub-title">Front-end Developer</h2>
-            </a>
-        </hgroup>
+        {% include header.html %}
     </div>
 </header>
 
 {{ content }}
 
-
+<footer class="full-width site-footer">
+    <div class="wrapper">
+        <aside class="legal">Copyright<sup>&copy;</sup> 2013 &mdash; Zaccary Price <small>wildtangomedia</small></aside>
+    </div>
+</footer>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
@@ -57,7 +28,7 @@ doesn't allow children to blow up the viewport width-->
         s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 
-<!-- build:js ./assets/scripts/main.js -->
+<!-- build:js /assets/scripts/main.js -->
 <script src="/bower_components/jquery/jquery.js"></script>
 <script src="/assets/scripts/main.js"></script>
 <!-- endbuild -->

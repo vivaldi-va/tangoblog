@@ -114,18 +114,18 @@ module.exports = function (grunt) {
         // not used since Uglify task does concat,
         // but still available if needed
         /*concat: {
-            dist: {}
-        },*/
+         dist: {}
+         },*/
         // not enabled since usemin task does concat and uglify
         // check index.html to edit your build targets
         // enable this task if you prefer defining your build targets here
         /*uglify: {
-            dist: {}
-        },*/
+         dist: {}
+         },*/
         jekyll: {
             dist: {
                 src: '<%= yeoman.app %>',
-                dest: '<%= yeoman.jekyll %>'
+                dest: '<%= yeoman.jekyll %>',
             }
         },
         rev: {
@@ -133,8 +133,7 @@ module.exports = function (grunt) {
                 files: {
                     src: [
                         '<%= yeoman.jekyll %>/assets/scripts/{,*/}*.js',
-                        //'<%= yeoman.jekyll %>/assets/styles/{,*/}*.css',
-                        '<%= yeoman.jekyll %>/assets/styles/*.css',
+                        '<%= yeoman.jekyll %>/assets/styles/{,*/}*.css',
                         '<%= yeoman.jekyll %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
                         '<%= yeoman.jekyll %>/assets/fonts/*'
                     ]
@@ -142,13 +141,16 @@ module.exports = function (grunt) {
             }
         },
         useminPrepare: {
-            html: '<%= yeoman.jekyll %>/index.html',
+            html: [
+                '<%= yeoman.jekyll %>/**/*.html'
+                //'<%= yeoman.jekyll %>/blog/**/*.html'
+            ],
             options: {
                 dest: '<%= yeoman.dist %>'
             }
         },
         usemin: {
-            html: ['<%= yeoman.dist %>/{,*/}*.html'],
+            html: ['<%= yeoman.dist %>/index.html', '<%= yeoman.dist %>/**/*.html'],
             css: ['<%= yeoman.dist %>/assets/styles/{,*/}*.css'],
             options: {
                 dirs: ['<%= yeoman.dist %>']
@@ -188,14 +190,14 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     /*removeCommentsFromCDATA: true,
-                    // https://github.com/yeoman/grunt-usemin/issues/44
-                    //collapseWhitespace: true,
-                    collapseBooleanAttributes: true,
-                    removeAttributeQuotes: true,
-                    removeRedundantAttributes: true,
-                    useShortDoctype: true,
-                    removeEmptyAttributes: true,
-                    removeOptionalTags: true*/
+                     // https://github.com/yeoman/grunt-usemin/issues/44
+                     //collapseWhitespace: true,
+                     collapseBooleanAttributes: true,
+                     removeAttributeQuotes: true,
+                     removeRedundantAttributes: true,
+                     useShortDoctype: true,
+                     removeEmptyAttributes: true,
+                     removeOptionalTags: true*/
                 },
                 files: [{
                     expand: true,
@@ -215,8 +217,10 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,txt}',
                         '.htaccess',
+                        'blog/**/*.html',
                         'assets/images/{,*/}*.{webp,gif}',
-                        'assets/fonts/*'
+                        'assets/fonts/*',
+                        'assets/scripts/*.php'
                     ]
                 }]
             },

@@ -13,7 +13,7 @@ title: "'Allo, 'Allo!"
         {% for post in site.categories.portfolio limit: 4 %}
              <article class="portfolio-entry-wrapper">
                  <div class="portfolio-image-wrapper">
-                     <a href="{{ post.url }}" class="portfolio-link">
+                     <a href="{{ post.link }}" target="_blank" class="portfolio-link">
                          <img class="portfolio-image" src="{{ post.image }}" alt="{{ post.title }}"/>
                          <h2 class="portfolio-entry-title">{{ post.title }}</h2>
                          <span class="portfolio-entry-date">{{ post.date | date: "%d.%m.%y" }}</span>
@@ -32,11 +32,14 @@ title: "'Allo, 'Allo!"
             </header>
             {% for post in site.categories.blog limit: 1 %}
                 <article class="post home-preview">
-                    <aside class="post-meta">
+                    <aside class="desktop-only post-meta">
                         <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
                     </aside>
                     <div class="post-stuff">
-                      <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
+                      <h1 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h1>
+                        <aside class="mobile-only post-meta">
+                            <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                        </aside>
                         <p class="post-text">{{ post.content | strip_html | truncatewords:75}}</p>
                     </div>
 
@@ -158,7 +161,7 @@ title: "'Allo, 'Allo!"
             <fieldset>
                 <div class="form-input contact-form-field">
                     <label for="contact-message" class="form-input-label contact-form-field-label">the message:</label>
-                    <textarea name="message" class="contact-form-message" id="contact-message" cols="30" rows="10"></textarea>
+                    <textarea name="message" class="contact-form-message" id="contact-message" cols="30" rows="10" tabindex="4"></textarea>
                 </div>
 
                 <button type="submit" class="btn block cta contact-form-submit">Send it.</button>

@@ -126,7 +126,7 @@
   color: $muted;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px)and (min-height: 568px) {
 
   .resume {
     text-align: left;

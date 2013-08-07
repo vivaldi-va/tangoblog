@@ -1,6 +1,6 @@
 ---
 layout: sub-page
-title: "'Allo, 'Allo!"
+title: "Blog"
 ---
 
     <section id="blog" class="full-width">
@@ -10,11 +10,14 @@ title: "'Allo, 'Allo!"
             </header>
             {% for post in site.categories.blog %}
             <article class="post home-preview">
-                <aside class="post-meta">
+                <aside class="desktop-only post-meta">
                     <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
                 </aside>
                 <div class="post-stuff">
-                    <h2 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h1 class="post-title">  <a href="{{ post.url }}">{{ post.title }}</a></h1>
+                    <aside class="mobile-only post-meta">
+                        <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+                    </aside>
                     <p>{{ post.content | strip_html | truncatewords:75}}</p>
                 </div>
 

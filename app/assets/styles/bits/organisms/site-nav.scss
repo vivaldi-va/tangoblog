@@ -3,11 +3,11 @@
   top: 0;
   z-index: 1000;
   
-  background: $red;
+  background: $lightGrey;
   height: 10px;
   margin: 0 0 3.2rem;
   padding: 10px 0 0;
-  color: $white;
+  color: #666;
   line-height: $touchTarget;
   overflow: hidden;
 
@@ -97,7 +97,7 @@
 
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px)and (min-height: 568px) {
   .site-nav {
     position: static;
     height: $touchTarget;
@@ -117,12 +117,18 @@
 
       width: auto;
       margin: 0 0.5em;
+      font-size: 0.8em;
+      opacity: 0.5;
 
       &+.site-nav-link:before {
         content: "|";
         position: absolute;
         left: -0.6em;
         opacity: 0.5;
+      }
+
+      &:hover {
+        opacity: 1;
       }
     }
   }

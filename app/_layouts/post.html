@@ -1,24 +1,23 @@
 ---
-layout: default
-title: This is just a placeholder post
+layout: sub-page
 ---
 
-<article class="post">
-    <div class="wrapper">
-        <header>
-            <h2 class="section-title"><a href="/blog/">the blog</a></h2>
-        </header>
 
-        <article class="post home-preview">
-            <aside class="post-meta">
-                <span class="post-meta-date">{{ post.date | date: "%d.%m.%y" }}</span>
+<article class="full-width post">
+    <div class="wrapper">
+
+        <aside class="post-meta desktop-only">
+            <span class="post-meta-date">{{ page.date | date: "%d.%m.%y" }}</span>
+        </aside>
+        <div class="post-stuff">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <aside class="post-meta mobile-only">
+                <span class="post-meta-date">{{ page.date | date: "%d.%m.%y" }}</span>
             </aside>
-            <div class="post-stuff">
-                <h2 class="post-title">{{ post.title }}</h2>
-                {{ content }}}
-            </div>
-        </article>
+            {{ content }}
+        </div>
     </div>
 </article>
+
 
 

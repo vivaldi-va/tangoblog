@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 3.2rem;
   hgroup {
-    margin: 0 0 6.4rem;
+    margin: 0 0 0;
   }
 }
 .site-title {
@@ -48,18 +48,22 @@
 .about-content {
   color: $muted;
   max-width: 33em;
-  margin: 0 auto 3.2rem;
+  margin: 3.2rem auto 0;
 
 }
 
 
 .header-freelance-info {
 
-  margin: 0 0 3.2rem;
+  margin: 6.4rem 0 0;
 
   .header-freelance-message {
     display: block;
-    margin: 0 0 3.2rem;
+    margin: 3.2rem 0 0;
+  }
+
+  .hire-button {
+    margin: 3.2rem 0 0;
   }
 
 }
@@ -78,7 +82,7 @@
   }
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px)and (min-height: 568px) {
   //body:before {
   //  content: "tablet style";
   //}
@@ -87,6 +91,7 @@
   .social-links {
     float: left;
     width: 100%;
+    margin: 3.2rem 0 0;
 
     .social-link {
       float: none;
