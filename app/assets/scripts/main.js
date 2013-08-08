@@ -6,6 +6,34 @@ $('.nav-open').click(function(e) {
     $(this).toggleClass('active');
 });
 
+function stickyTopLink()
+{
+    var y = ($(window).scrollTop() + $(window).innerHeight()) - ($(".top-link").height())* 2,
+        top = $(window).scrollTop();
+
+    if(top > $(".site-nav").height())
+    {
+        $(".top-link").css({
+            'top': y,
+            'right': $(".top-link").width()
+        }).removeClass('hidden');
+    }
+    else
+    {
+        $(".top-link").addClass('hidden');
+    }
+}
+
+$(window).scroll(stickyTopLink);
+$(window).resize(stickyTopLink);
+
+$(".top-link").click(function(e){
+    $('html, body').animate({
+        scrollTop: 0
+    }, '250');
+});
+
+
 $('#contact-form').submit(function(e){
     e.preventDefault();
     $(this).find('button[type="submit"]').attr('disable', 'true').html('Sending... <i class="icon-refresh icon-spin"></i>');
