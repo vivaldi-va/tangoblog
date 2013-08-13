@@ -1,0 +1,31 @@
+.back-link-wrapper {
+  float: left;
+  width: 100%;
+
+  margin: 0 0 1em;
+  text-align: center;
+
+  .back-link {
+    display: inline-block;
+    height: $touchTarget;
+
+    font-size: 0.8em;
+    font-weight: 700;
+    line-height: $touchTarget;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+
+
+@media screen and (min-width: 568px)and (min-height: 568px) {
+  .back-link-wrapper {
+    width: auto;
+    margin-left: 20%;
+    text-align: right;
+
+    .back-link {
+    }
+  }
+}

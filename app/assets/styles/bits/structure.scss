@@ -16,8 +16,11 @@ body {
   float: left;
   width: 100%;
   //margin: 0 0 12.8rem;
-  margin: 0 0 6.4rem;
 
+
+  &+.full-width {
+    margin: 6.4rem 0 0;
+  }
   &.site-footer {
     margin: 0;
   }
@@ -26,7 +29,10 @@ body {
 @media screen and (min-width: 568px) {
 
   .full-width {
-    margin: 0 0 12.8rem;
+
+    &+.full-width {
+      margin: 12.8rem 0 0;
+    }
   }
 }
 

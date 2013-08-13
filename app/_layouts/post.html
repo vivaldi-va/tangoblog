@@ -2,7 +2,11 @@
 layout: sub-page
 ---
 
-
+<div class="wrapper">
+    <div class="back-link-wrapper">
+        <a class="back-link" href="/blog/"><i class="icon-chevron-left"></i> back to the blog</a>
+    </div>
+</div>
 <article class="full-width post">
     <div class="wrapper">
 
@@ -10,10 +14,12 @@ layout: sub-page
             <span class="post-meta-date">{{ page.date | date: "%d.%m.%y" }}</span>
         </aside>
         <div class="post-stuff">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <aside class="post-meta mobile-only">
-                <span class="post-meta-date">{{ page.date | date: "%d.%m.%y" }}</span>
-            </aside>
+            <header>
+                <h1 class="post-title">{{ page.title }}</h1>
+                <aside class="post-meta mobile-only">
+                    <span class="post-meta-date">{{ page.date | date: "%d.%m.%y" }}</span>
+                </aside>
+            </header>
             {{ content }}
         </div>
     </div>

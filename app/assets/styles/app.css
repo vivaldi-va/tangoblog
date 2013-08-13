@@ -17,14 +17,15 @@ body {
 
 .full-width {
   float: left;
-  width: 100%;
-  margin: 0 0 6.4rem; }
+  width: 100%; }
+  .full-width + .full-width {
+    margin: 6.4rem 0 0; }
   .full-width.site-footer {
     margin: 0; }
 
 @media screen and (min-width: 568px) {
-  .full-width {
-    margin: 0 0 12.8rem; } }
+  .full-width + .full-width {
+    margin: 12.8rem 0 0; } }
 @media screen and (min-width: 1024px) {
   html {
     font-size: 12px; } }
@@ -140,7 +141,7 @@ a:focus {
     .btn:visited.no-style:active {
       color: #00a253; }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 568px) and (min-height: 568px) {
   .btn,
   .btn:link,
   .btn:visited {
@@ -218,7 +219,6 @@ textarea {
   z-index: 1000;
   background: #dfdfdf;
   height: 10px;
-  margin: 0 0 3.2rem;
   padding: 10px 0 0;
   color: #666;
   line-height: 35pt;
@@ -315,27 +315,23 @@ textarea {
   .site-head hgroup {
     margin: 0 0 0; }
 
+.avatar {
+  width: 73px;
+  height: 73px;
+  margin: 3.2rem auto 0;
+  border: 5px solid #dfdfdf;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+
 .site-title {
   position: relative;
-  margin: 6.4rem 0 0;
+  margin: 3.2rem 0 0;
   color: #ef422b;
   font-size: 3.2em;
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase; }
-  .site-title:before {
-    position: absolute;
-    left: 50%;
-    top: -8rem;
-    content: "";
-    width: 73px;
-    height: 73px;
-    margin: 0 0 0 -39px;
-    background: url("https://si0.twimg.com/profile_images/378800000146282949/dfd7e1f0f355699655f02b2bd09702f5_bigger.jpeg") no-repeat 0 0;
-    border: 5px solid #dfdfdf;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%; }
 
 .site-sub-title {
   margin: 0;
@@ -350,27 +346,32 @@ textarea {
   margin: 3.2rem auto 0; }
 
 .header-freelance-info {
-  margin: 6.4rem 0 0; }
+  margin: 3.2rem 0 0; }
   .header-freelance-info .header-freelance-message {
     display: block;
     margin: 3.2rem 0 0; }
   .header-freelance-info .hire-button {
     margin: 3.2rem 0 0; }
 
-.social-link {
-  float: left;
-  width: 50%;
-  font-size: 2em;
-  color: #999999; }
-  .social-link:hover {
-    font-size: 2em; }
+.social-links {
+  margin: 3.2rem 0 0; }
+  .social-links .social-link {
+    float: left;
+    width: 50%;
+    font-size: 2em;
+    color: #999999; }
+    .social-links .social-link:hover {
+      font-size: 2em; }
 
 @media screen and (min-width: 568px) and (min-height: 568px) {
+  .header-freelance-info {
+    margin: 6.4rem 0 0; }
+
   .social-links {
-    float: left;
-    width: 100%;
-    margin: 3.2rem 0 0; }
+    width: auto;
+    margin: 3.2rem auto 0; }
     .social-links .social-link {
+      width: auto;
       float: none; } }
 .portfolio-entry-wrapper {
   float: left;
@@ -676,5 +677,46 @@ textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box; } }
 .site-footer {
+  padding: 3.2rem 0;
   background: #4f4f4f;
   color: white; }
+
+.footer-social-links {
+  float: left;
+  clear: both; }
+  .footer-social-links .footer-social-link {
+    float: left;
+    width: 35pt;
+    height: 35pt;
+    font-size: 1.25em;
+    color: #999999;
+    line-height: 35pt;
+    text-align: center;
+    text-decoration: none; }
+    .footer-social-links .footer-social-link + .footer-social-link {
+      padding: 0 0 0 17.5pt; }
+
+.legal {
+  margin: 3.2rem 0 0;
+  width: 100%;
+  text-align: center; }
+
+.back-link-wrapper {
+  float: left;
+  width: 100%;
+  margin: 0 0 1em;
+  text-align: center; }
+  .back-link-wrapper .back-link {
+    display: inline-block;
+    height: 35pt;
+    font-size: 0.8em;
+    font-weight: 700;
+    line-height: 35pt;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+@media screen and (min-width: 568px) and (min-height: 568px) {
+  .back-link-wrapper {
+    width: auto;
+    margin-left: 20%;
+    text-align: right; } }

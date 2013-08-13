@@ -5,7 +5,6 @@
   
   background: $lightGrey;
   height: 10px;
-  margin: 0 0 3.2rem;
   padding: 10px 0 0;
   color: #666;
   line-height: $touchTarget;
@@ -98,7 +97,7 @@
 }
 
 @media screen and (min-width: 568px)and (min-height: 568px) {
-  .site-nav {
+    .site-nav {
     position: static;
     height: $touchTarget;
     padding: 0;

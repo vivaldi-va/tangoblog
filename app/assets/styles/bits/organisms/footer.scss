@@ -1,5 +1,35 @@
 
 .site-footer {
+  padding: 3.2rem 0;
   background: $black;
   color: $white;
 }
+
+.footer-social-links {
+  float: left;
+  clear: both;
+  
+  .footer-social-link {
+    float: left;
+    width: $touchTarget;
+    height: $touchTarget;
+
+    font-size: 1.25em;
+    color: $muted;
+    line-height: $touchTarget;
+
+    text-align: center;
+    text-decoration: none;
+
+    &+.footer-social-link {
+      padding: 0 0 0 $touchTarget/2;
+    }
+  }
+}
+
+.legal {
+  margin: 3.2rem 0 0;
+  width: 100%;
+  text-align: center;
+}
+
