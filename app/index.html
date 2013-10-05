@@ -18,6 +18,11 @@ title: "'Allo, 'Allo!"
                          <h2 class="portfolio-entry-title">{{ post.title }}</h2>
                          <span class="portfolio-entry-date">{{ post.date | date: "%d.%m.%y" }}</span>
                      </a>
+					 <aside class="portfolio-entry-details">
+					 	{% for tag in post.tags %}
+						 <div class="tag detail">{{ post.tag }}</div>
+						{% endfor %}
+					 </aside>
                  </div>
              </article>
         {% endfor %}

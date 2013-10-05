@@ -1,87 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss" line="83" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss" line="79" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12eb8311-9812-4a54-87ea-47eca86eda9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/styles/bits/layouts/blog-post.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/atoms/_button.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/atoms/_button.scss" />
+    <list default="true" id="12eb8311-9812-4a54-87ea-47eca86eda9b" name="Default" comment="tweaked styles, added some stuff to the footer that's not quite done yet">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_config.yml" afterPath="$PROJECT_DIR$/app/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/app.css" afterPath="$PROJECT_DIR$/app/assets/styles/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/app.scss" afterPath="$PROJECT_DIR$/app/assets/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/layouts/blog-post.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/layouts/blog-post.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/organisms/blog-preview.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/organisms/blog-preview.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/default.html" afterPath="$PROJECT_DIR$/app/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/organisms/footer.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/organisms/footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/footer.html" afterPath="$PROJECT_DIR$/app/_includes/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/header.html" afterPath="$PROJECT_DIR$/app/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/scripts/main.js" afterPath="$PROJECT_DIR$/app/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/meta.html" afterPath="$PROJECT_DIR$/app/_includes/meta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_includes/navigation.html" afterPath="$PROJECT_DIR$/app/_includes/navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/post.html" afterPath="$PROJECT_DIR$/app/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/organisms/site-nav.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/organisms/site-nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/structure.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/structure.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_layouts/sub-page.html" afterPath="$PROJECT_DIR$/app/_layouts/sub-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/bits/typography.scss" afterPath="$PROJECT_DIR$/app/assets/styles/bits/typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tangoblog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376069721373" ignored="false" />
-    <file path="/dummy.xml" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376238359774" ignored="false" />
-    <file path="/2013-07-28-test-post.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375643204131" ignored="false" />
-    <file path="/_variables.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375045929275" ignored="false" />
-    <file path="/app.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375990241323" ignored="false" />
-    <file path="/structure.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376168799667" ignored="false" />
-    <file path="/default.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376239651988" ignored="false" />
-    <file path="/header.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376240159834" ignored="false" />
-    <file path="/typography.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375563221795" ignored="false" />
-    <file path="/_button.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375562409329" ignored="false" />
-    <file path="/blog-preview.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375815011761" ignored="false" />
-    <file path="/_pill.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375387623527" ignored="false" />
-    <file path="/lorum-ipsum.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375388912331" ignored="false" />
-    <file path="/Dummy.txt" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376239921197" ignored="false" />
-    <file path="/resume.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375638205824" ignored="false" />
-    <file path="/contact-form.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375571910458" ignored="false" />
-    <file path="/_block-input.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375554533064" ignored="false" />
-    <file path="/_form-input.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375547497838" ignored="false" />
-    <file path="/main.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376158934544" ignored="false" />
-    <file path="/post-message.php" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375551026520" ignored="false" />
-    <file path="/reset.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375554124099" ignored="false" />
-    <file path="/.htaccess" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375558304614" ignored="false" />
-    <file path="/Gruntfile.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375816438025" ignored="false" />
-    <file path="/2013-08-02-lorum-ipsum.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375643276620" ignored="false" />
-    <file path="/footer.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376240310159" ignored="false" />
-    <file path="/web-cv.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375638384172" ignored="false" />
-    <file path="/portfolio.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375644704385" ignored="false" />
-    <file path="/weather-app.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375643853239" ignored="false" />
-    <file path="/2012-11-03-on-creating-a-mobile-web.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375730289682" ignored="false" />
-    <file path="/sub-page.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375645807172" ignored="false" />
-    <file path="/site-nav.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375728965551" ignored="false" />
-    <file path="/_helpers.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375650508978" ignored="false" />
-    <file path="/post.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375992584437" ignored="false" />
-    <file path="/_config.yml" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375735111492" ignored="false" />
-    <file path="/2013-08-04-web-cv.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375808967530" ignored="false" />
-    <file path="/2013-08-04-weather-app.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375808929929" ignored="false" />
-    <file path="/navigation.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375818137939" ignored="false" />
-    <file path="/meta.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375818390762" ignored="false" />
-    <file path="/geolocation-in-angular-services.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375982085587" ignored="false" />
-    <file path="/_top-link.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375986549958" ignored="false" />
-    <file path="/process-posts.bat" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375987178329" ignored="false" />
-    <file path="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/examples/strict.dtd" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375987824412" ignored="false" />
-    <file path="/blog-post.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375992711955" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/index.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375994407550" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/js/main.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375995332932" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/app/index.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376069722191" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/app/scripts/main.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376158951156" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/app/weather.appcache" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376027358420" ignored="false" />
-    <file path="/weather.appcache" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1375997184854" ignored="false" />
-    <file path="/2013-08-08-geolocation-in-angular-services.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376027417279" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/dist/scripts/245d6160.main.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376063569133" ignored="false" />
-    <file path="/2012-11-28-ostosnero-dev-blog-01.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376064492913" ignored="false" />
-    <file path="/2012-12-07-ostosnero-development-blog-02.md" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376064805453" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/app/styles/main.scss" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376069962004" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/.idea/workspace.xml" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376134478114" ignored="false" />
-    <file path="$PROJECT_DIR$/../authentic-weather/app/scripts/main.js" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376330708996" ignored="false" />
-    <file path="/header.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376168482871" ignored="false" />
-    <file path="/footer.html" changelist="12eb8311-9812-4a54-87ea-47eca86eda9b" time="1376238513330" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,37 +49,35 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="0" selection-start="8437" selection-end="8437" vertical-scroll-proportion="-0.65384614">
+            <state line="24" column="29" selection-start="961" selection-end="961" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="3502">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
+      <file leaf-file-name="typography.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="85" selection-start="279" selection-end="364" vertical-scroll-proportion="0.34412956">
+            <state line="47" column="1" selection-start="599" selection-end="599" vertical-scroll-proportion="-16.26923" vertical-offset="376" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/footer.scss">
+      <file leaf-file-name="portfolio.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="26" column="39" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/app.css">
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="722" column="0" selection-start="16894" selection-end="16894" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1376240310696" expanded="true" signature="16891:16893" placeholder="{...}" />
-              </folding>
+            <state line="4" column="21" selection-start="190" selection-end="190" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="255">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,25 +85,70 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="1753" selection-end="1778" vertical-scroll-proportion="0.0">
+            <state line="27" column="21" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sub-page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/_layouts/sub-page.html">
+      <file leaf-file-name="meta.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_includes/meta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+            <state line="30" column="73" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/app.scss">
+      <file leaf-file-name="prism-funky.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-funky.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prism-twilight.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-twilight.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="91" selection-start="902" selection-end="980" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2013-09-11-sharing-data-angular.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_posts/2013-09-11-sharing-data-angular.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="39" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2013-08-08-geolocation-in-angular-services.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/_posts/2013-08-08-geolocation-in-angular-services.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="6" selection-start="1241" selection-end="1241" vertical-scroll-proportion="2.1055045" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="26" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -169,7 +157,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="50" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -178,16 +166,7 @@
       <file leaf-file-name="header.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="36" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="100" column="24" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -217,27 +196,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/styles/bits/layouts/blog-post.scss" />
-        <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/_posts/2013-08-08-geolocation-in-angular-services.md" />
-        <option value="$PROJECT_DIR$/app/_posts/2012-11-28-ostosnero-dev-blog-01.md" />
-        <option value="$PROJECT_DIR$/app/_posts/2012-12-07.md" />
-        <option value="$PROJECT_DIR$/app/_posts/2012-12-07-ostosnero-development-blog-02.md" />
-        <option value="$PROJECT_DIR$/app/_includes/header.html" />
-        <option value="$PROJECT_DIR$/app/assets/styles/bits/structure.scss" />
-        <option value="$PROJECT_DIR$/app/assets/styles/bits/organisms/site-nav.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/app/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/app/_layouts/sub-page.html" />
-        <option value="$PROJECT_DIR$/app/assets/styles/app.scss" />
+        <option value="$PROJECT_DIR$/app/_includes/navigation.html" />
+        <option value="$PROJECT_DIR$/app/_layouts/post.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss" />
-        <option value="$PROJECT_DIR$/app/assets/styles/bits/organisms/footer.scss" />
+        <option value="$PROJECT_DIR$/app/_posts/2013-09-17-ostosnero-app.md" />
+        <option value="$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/_drafts/password-revealing.md" />
+        <option value="$PROJECT_DIR$/app/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/_config.yml" />
+        <option value="$PROJECT_DIR$/app/blog/index.html" />
+        <option value="$PROJECT_DIR$/app/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/app/_includes/meta.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/bits/typography.scss" />
+        <option value="$PROJECT_DIR$/app/_posts/2013-09-11-sharing-data-angular.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2013-08-08-geolocation-in-angular-services.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1541" />
+    <option name="width" value="1228" />
     <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -312,245 +291,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prismjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangoblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangoblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangoblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangoblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organisms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organisms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atoms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tangoblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -625,10 +406,6 @@
               <option name="myItemId" value="_drafts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -638,26 +415,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../authentic-weather" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="d433bf54-c017-43f2-bac6-e558563b421c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\tangoblog\app\_drafts" />
       <recent name="C:\wamp\www\tangoblog\app\_drafts\staging" />
       <recent name="C:\wamp\www\tangoblog\app\assets\styles\bits\organisms" />
       <recent name="C:\wamp\www\tangoblog\app\assets\styles\bits" />
@@ -665,6 +432,16 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -673,11 +450,15 @@
       <option name="testName" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -730,199 +511,182 @@
       <created>1375987578906</created>
       <updated>1375987578906</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tweaked styles, added some stuff to the footer that's not quite done yet">
+      <created>1376373794143</created>
+      <updated>1376373794143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1541" height="1041" extended-state="0" />
+    <frame x="0" y="0" width="1228" height="1041" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.66138166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2343542" sideWeight="0.33861834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24390244" sideWeight="0.33861834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08833522" sideWeight="0.9986541" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08607022" sideWeight="0.9984448" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66138166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24410541" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08700565" sideWeight="0.9984448" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 'to top' link" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="resume styles done for mobile, also contact form styles&#10;some changes to make header a global thing" />
     <MESSAGE value="added desktop styles to homepage" />
     <MESSAGE value="Added nav menu, fixed somethings with blog and resume. Also added portfolio and fixed categories." />
     <MESSAGE value="Fixed blog post, grunt file and something else" />
     <MESSAGE value="added 'to top' link" />
+    <MESSAGE value="tweaked styles, added some stuff to the footer that's not quite done yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaked styles, added some stuff to the footer that's not quite done yet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/_posts/2012-11-28-ostosnero-dev-blog-01.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2013-08-04-web-cv.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="82" vertical-scroll-proportion="-0.0" />
+        <state line="5" column="31" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
+        <state line="30" column="26" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/app/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/structure.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="41" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/resume.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/site-nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="8437" selection-end="8437" vertical-scroll-proportion="-0.65384614">
+        <state line="24" column="25" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="50" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/portfolio.css">
+    <entry file="file://$PROJECT_DIR$/app/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="21" selection-start="190" selection-end="190" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="1753" selection-end="1778" vertical-scroll-proportion="0.0">
+        <state line="27" column="21" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/sub-page.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="722" column="0" selection-start="16894" selection-end="16894" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1376240310696" expanded="true" signature="16891:16893" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="36" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/organisms/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+        <state line="24" column="29" selection-start="961" selection-end="961" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="3502">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="85" selection-start="279" selection-end="364" vertical-scroll-proportion="0.34412956">
+        <state line="17" column="91" selection-start="902" selection-end="980" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-twilight.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-funky.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-okaidia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/prismjs/prism-coy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_includes/meta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="73" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/bits/typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="1" selection-start="599" selection-end="599" vertical-scroll-proportion="-16.26923" vertical-offset="376" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2013-09-11-sharing-data-angular.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="39" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2013-08-08-geolocation-in-angular-services.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="1241" selection-end="1241" vertical-scroll-proportion="2.1055045" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
